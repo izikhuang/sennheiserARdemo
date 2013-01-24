@@ -84,14 +84,14 @@
 		FC58F49A15C410A000F06D52 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FC7D2F5015D659230047E54A /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = Progress/MBProgressHUD.h; sourceTree = "<group>"; };
 		FC7D2F5115D659230047E54A /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = Progress/MBProgressHUD.m; sourceTree = "<group>"; };
-		FCDCE6C515C3D8300034AF86 /* Augmented Reality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Augmented Reality.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCDCE6C515C3D8300034AF86 /* sennheiser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sennheiser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCDCE6C915C3D8300034AF86 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FCDCE6CB15C3D8300034AF86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FCDCE6CD15C3D8300034AF86 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		FCDCE6D115C3D8300034AF86 /* Augmented Reality-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Augmented Reality-Info.plist"; sourceTree = "<group>"; };
+		FCDCE6D115C3D8300034AF86 /* sennheiser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sennheiser-Info.plist"; sourceTree = "<group>"; };
 		FCDCE6D315C3D8300034AF86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FCDCE6D515C3D8300034AF86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FCDCE6D715C3D8300034AF86 /* Augmented Reality-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Augmented Reality-Prefix.pch"; sourceTree = "<group>"; };
+		FCDCE6D715C3D8300034AF86 /* sennheiser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sennheiser-Prefix.pch"; sourceTree = "<group>"; };
 		FCDCE6D815C3D8300034AF86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FCDCE6D915C3D8300034AF86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -206,7 +206,7 @@
 		FCDCE6C615C3D8300034AF86 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FCDCE6C515C3D8300034AF86 /* Augmented Reality.app */,
+				FCDCE6C515C3D8300034AF86 /* sennheiser.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -247,10 +247,10 @@
 		FCDCE6D015C3D8300034AF86 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FCDCE6D115C3D8300034AF86 /* Augmented Reality-Info.plist */,
+				FCDCE6D115C3D8300034AF86 /* sennheiser-Info.plist */,
 				FCDCE6D215C3D8300034AF86 /* InfoPlist.strings */,
 				FCDCE6D515C3D8300034AF86 /* main.m */,
-				FCDCE6D715C3D8300034AF86 /* Augmented Reality-Prefix.pch */,
+				FCDCE6D715C3D8300034AF86 /* sennheiser-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -266,9 +266,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FCDCE6C415C3D8300034AF86 /* Augmented Reality */ = {
+		FCDCE6C415C3D8300034AF86 /* sennheiser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FCDCE6E315C3D8300034AF86 /* Build configuration list for PBXNativeTarget "Augmented Reality" */;
+			buildConfigurationList = FCDCE6E315C3D8300034AF86 /* Build configuration list for PBXNativeTarget "sennheiser" */;
 			buildPhases = (
 				FCDCE6C115C3D8300034AF86 /* Sources */,
 				FCDCE6C215C3D8300034AF86 /* Frameworks */,
@@ -278,9 +278,9 @@
 			);
 			dependencies = (
 			);
-			name = "Augmented Reality";
+			name = sennheiser;
 			productName = "Augmented Reality";
-			productReference = FCDCE6C515C3D8300034AF86 /* Augmented Reality.app */;
+			productReference = FCDCE6C515C3D8300034AF86 /* sennheiser.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -290,9 +290,9 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0430;
-				ORGANIZATIONNAME = "NewTech Co, Ltd";
+				ORGANIZATIONNAME = "";
 			};
-			buildConfigurationList = FCDCE6BF15C3D8300034AF86 /* Build configuration list for PBXProject "Augmented Reality" */;
+			buildConfigurationList = FCDCE6BF15C3D8300034AF86 /* Build configuration list for PBXProject "sennheiser" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -304,7 +304,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FCDCE6C415C3D8300034AF86 /* Augmented Reality */,
+				FCDCE6C415C3D8300034AF86 /* sennheiser */,
 			);
 		};
 /* End PBXProject section */
@@ -410,19 +410,19 @@
 		FCDCE6E415C3D8300034AF86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Zhen Han (BZW5E3V4N5)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Zhen Han (BZW5E3V4N5)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Augmented Reality/Augmented Reality-Prefix.pch";
-				INFOPLIST_FILE = "Augmented Reality/Augmented Reality-Info.plist";
+				GCC_PREFIX_HEADER = "Augmented Reality/sennheiser-Prefix.pch";
+				INFOPLIST_FILE = "Augmented Reality/sennheiser-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Point Cloud\"",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "8CE9B015-A0AB-4842-9F92-4673B1F27F51";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8CE9B015-A0AB-4842-9F92-4673B1F27F51";
+				PRODUCT_NAME = sennheiser;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
@@ -431,19 +431,19 @@
 		FCDCE6E515C3D8300034AF86 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Zhen Han (BZW5E3V4N5)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Zhen Han (BZW5E3V4N5)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Augmented Reality/Augmented Reality-Prefix.pch";
-				INFOPLIST_FILE = "Augmented Reality/Augmented Reality-Info.plist";
+				GCC_PREFIX_HEADER = "Augmented Reality/sennheiser-Prefix.pch";
+				INFOPLIST_FILE = "Augmented Reality/sennheiser-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Point Cloud\"",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "8CE9B015-A0AB-4842-9F92-4673B1F27F51";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8CE9B015-A0AB-4842-9F92-4673B1F27F51";
+				PRODUCT_NAME = sennheiser;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
@@ -452,7 +452,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FCDCE6BF15C3D8300034AF86 /* Build configuration list for PBXProject "Augmented Reality" */ = {
+		FCDCE6BF15C3D8300034AF86 /* Build configuration list for PBXProject "sennheiser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FCDCE6E115C3D8300034AF86 /* Debug */,
@@ -461,7 +461,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FCDCE6E315C3D8300034AF86 /* Build configuration list for PBXNativeTarget "Augmented Reality" */ = {
+		FCDCE6E315C3D8300034AF86 /* Build configuration list for PBXNativeTarget "sennheiser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FCDCE6E415C3D8300034AF86 /* Debug */,

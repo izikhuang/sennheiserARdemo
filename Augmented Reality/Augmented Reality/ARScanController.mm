@@ -460,7 +460,7 @@ bool read_png_image( const char* filename, char** data, int* width, int* height 
                            nHeight,
                            POINTCLOUD_BGRA_8888,
                            machineName(),
-                           "e474d362-9c39-4966-bcb0-5c3d3698caa1" ) ;
+                           "5aa95e2c-aaed-41da-b0e5-88307aae0270" ) ;
         
         // Init ;
         loading = YES ;

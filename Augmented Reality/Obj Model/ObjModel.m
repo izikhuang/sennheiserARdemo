@@ -35,7 +35,7 @@
 	if( self )
 	{
         // Zoom ;
-        zoomInfo    = Vertex3DMake( 0.02, 0.02, 0.02 ) ;
+        zoomInfo    = Vertex3DMake( 0.05, 0.05, 0.05 ) ;
         
         // Model ;
         [ self loadModel : _path ] ;
@@ -395,7 +395,7 @@
 	}
     
     // Rotate ;
-//  glRotatef( 180, 1, 0, 0 ) ;
+  glRotatef( 220, 40, 40, 40 ) ;
     
     // For Each Group ;
     for( ObjGroup* group in groups )
