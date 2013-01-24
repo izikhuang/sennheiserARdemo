@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0239AAF716B193C4006A2105 /* hd202_heights.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0239AAEB16B193C4006A2105 /* hd202_heights.jpg */; };
+		0239AAF816B193C4006A2105 /* hd202_normals.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0239AAEC16B193C4006A2105 /* hd202_normals.jpg */; };
+		0239AAF916B193C4006A2105 /* hd202_occlusion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0239AAED16B193C4006A2105 /* hd202_occlusion.jpg */; };
+		0239AAFA16B193C4006A2105 /* Sennheiser_HD202_(obj).mtl in Resources */ = {isa = PBXBuildFile; fileRef = 0239AAEE16B193C4006A2105 /* Sennheiser_HD202_(obj).mtl */; };
+		0239AAFB16B193C4006A2105 /* Sennheiser_HD202_(obj).obj in Resources */ = {isa = PBXBuildFile; fileRef = 0239AAEF16B193C4006A2105 /* Sennheiser_HD202_(obj).obj */; };
+		0239AAFC16B193C4006A2105 /* 8ninths_businesscard_back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0239AAF116B193C4006A2105 /* 8ninths_businesscard_back.jpg */; };
+		0239AAFD16B193C4006A2105 /* 8ninths_businesscard_back.model in Resources */ = {isa = PBXBuildFile; fileRef = 0239AAF216B193C4006A2105 /* 8ninths_businesscard_back.model */; };
+		0239AAFE16B193C4006A2105 /* image_target_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0239AAF316B193C4006A2105 /* image_target_1.jpg */; };
+		0239AAFF16B193C4006A2105 /* image_target_1.model in Resources */ = {isa = PBXBuildFile; fileRef = 0239AAF416B193C4006A2105 /* image_target_1.model */; };
+		0239AB0016B193C4006A2105 /* image_target_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0239AAF516B193C4006A2105 /* image_target_2.jpg */; };
+		0239AB0116B193C4006A2105 /* image_target_2.model in Resources */ = {isa = PBXBuildFile; fileRef = 0239AAF616B193C4006A2105 /* image_target_2.model */; };
+		02530125160B015500C618D9 /* ObjMaterial.m in Sources */ = {isa = PBXBuildFile; fileRef = 02530124160B015500C618D9 /* ObjMaterial.m */; };
+		02530129160B031200C618D9 /* ObjGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 02530128160B031200C618D9 /* ObjGroup.m */; };
+		0253012C160B037800C618D9 /* ObjTexture.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0253012B160B037800C618D9 /* ObjTexture.mm */; };
+		0296475916B0CB8400DAEA3B /* ARScanController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0296475716B0CB8400DAEA3B /* ARScanController.mm */; };
+		0296475A16B0CB8400DAEA3B /* ARScanController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0296475816B0CB8400DAEA3B /* ARScanController.xib */; };
+		02EDA64D1609B70F00DA80B6 /* ObjModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EDA64C1609B70F00DA80B6 /* ObjModel.m */; };
+		FC58F46E15C40D4B00F06D52 /* EAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = FC58F46C15C40D4A00F06D52 /* EAGLView.mm */; };
+		FC58F47515C40DCF00F06D52 /* libpointcloud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC58F47115C40DCF00F06D52 /* libpointcloud.a */; };
+		FC58F47615C40DCF00F06D52 /* TextureUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC58F47315C40DCF00F06D52 /* TextureUtilities.cpp */; };
+		FC58F48D15C4107100F06D52 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC58F48C15C4107100F06D52 /* Accelerate.framework */; };
+		FC58F48F15C4107900F06D52 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC58F48E15C4107900F06D52 /* AVFoundation.framework */; };
+		FC58F49115C4108400F06D52 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC58F49015C4108400F06D52 /* CoreAudio.framework */; };
+		FC58F49315C4108A00F06D52 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC58F49215C4108A00F06D52 /* CoreMedia.framework */; };
+		FC58F49515C4109000F06D52 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC58F49415C4109000F06D52 /* CoreMotion.framework */; };
+		FC58F49715C4109400F06D52 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC58F49615C4109400F06D52 /* CoreVideo.framework */; };
+		FC58F49915C4109B00F06D52 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC58F49815C4109B00F06D52 /* OpenGLES.framework */; };
+		FC58F49B15C410A000F06D52 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC58F49A15C410A000F06D52 /* QuartzCore.framework */; };
+		FC7D2F5215D659230047E54A /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7D2F5115D659230047E54A /* MBProgressHUD.m */; };
+		FCDCE6CA15C3D8300034AF86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDCE6C915C3D8300034AF86 /* UIKit.framework */; };
+		FCDCE6CC15C3D8300034AF86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDCE6CB15C3D8300034AF86 /* Foundation.framework */; };
+		FCDCE6CE15C3D8300034AF86 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDCE6CD15C3D8300034AF86 /* CoreGraphics.framework */; };
+		FCDCE6D415C3D8300034AF86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCDCE6D215C3D8300034AF86 /* InfoPlist.strings */; };
+		FCDCE6D615C3D8300034AF86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDCE6D515C3D8300034AF86 /* main.m */; };
+		FCDCE6DA15C3D8300034AF86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDCE6D915C3D8300034AF86 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0239AAEB16B193C4006A2105 /* hd202_heights.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hd202_heights.jpg; sourceTree = "<group>"; };
+		0239AAEC16B193C4006A2105 /* hd202_normals.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hd202_normals.jpg; sourceTree = "<group>"; };
+		0239AAED16B193C4006A2105 /* hd202_occlusion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hd202_occlusion.jpg; sourceTree = "<group>"; };
+		0239AAEE16B193C4006A2105 /* Sennheiser_HD202_(obj).mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Sennheiser_HD202_(obj).mtl"; sourceTree = "<group>"; };
+		0239AAEF16B193C4006A2105 /* Sennheiser_HD202_(obj).obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Sennheiser_HD202_(obj).obj"; sourceTree = "<group>"; };
+		0239AAF116B193C4006A2105 /* 8ninths_businesscard_back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8ninths_businesscard_back.jpg; sourceTree = "<group>"; };
+		0239AAF216B193C4006A2105 /* 8ninths_businesscard_back.model */ = {isa = PBXFileReference; lastKnownFileType = file; path = 8ninths_businesscard_back.model; sourceTree = "<group>"; };
+		0239AAF316B193C4006A2105 /* image_target_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_target_1.jpg; sourceTree = "<group>"; };
+		0239AAF416B193C4006A2105 /* image_target_1.model */ = {isa = PBXFileReference; lastKnownFileType = file; path = image_target_1.model; sourceTree = "<group>"; };
+		0239AAF516B193C4006A2105 /* image_target_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_target_2.jpg; sourceTree = "<group>"; };
+		0239AAF616B193C4006A2105 /* image_target_2.model */ = {isa = PBXFileReference; lastKnownFileType = file; path = image_target_2.model; sourceTree = "<group>"; };
+		02530123160B015500C618D9 /* ObjMaterial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjMaterial.h; path = "Obj Model/ObjMaterial.h"; sourceTree = "<group>"; };
+		02530124160B015500C618D9 /* ObjMaterial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObjMaterial.m; path = "Obj Model/ObjMaterial.m"; sourceTree = "<group>"; };
+		02530127160B031200C618D9 /* ObjGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjGroup.h; path = "Obj Model/ObjGroup.h"; sourceTree = "<group>"; };
+		02530128160B031200C618D9 /* ObjGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObjGroup.m; path = "Obj Model/ObjGroup.m"; sourceTree = "<group>"; };
+		0253012A160B037800C618D9 /* ObjTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjTexture.h; path = "Obj Model/ObjTexture.h"; sourceTree = "<group>"; };
+		0253012B160B037800C618D9 /* ObjTexture.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ObjTexture.mm; path = "Obj Model/ObjTexture.mm"; sourceTree = "<group>"; };
+		0253012D160B0CCF00C618D9 /* ObjCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjCommon.h; path = "Obj Model/ObjCommon.h"; sourceTree = "<group>"; };
+		0296475616B0CB8400DAEA3B /* ARScanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARScanController.h; sourceTree = "<group>"; };
+		0296475716B0CB8400DAEA3B /* ARScanController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ARScanController.mm; sourceTree = "<group>"; };
+		0296475816B0CB8400DAEA3B /* ARScanController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ARScanController.xib; sourceTree = "<group>"; };
+		02EDA64B1609B70F00DA80B6 /* ObjModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjModel.h; path = "Obj Model/ObjModel.h"; sourceTree = "<group>"; };
+		02EDA64C1609B70F00DA80B6 /* ObjModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObjModel.m; path = "Obj Model/ObjModel.m"; sourceTree = "<group>"; };
+		FC58F46B15C40D4A00F06D52 /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		FC58F46C15C40D4A00F06D52 /* EAGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EAGLView.mm; sourceTree = "<group>"; };
+		FC58F47115C40DCF00F06D52 /* libpointcloud.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpointcloud.a; path = "Point Cloud/libpointcloud.a"; sourceTree = "<group>"; };
+		FC58F47215C40DCF00F06D52 /* PointCloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PointCloud.h; path = "Point Cloud/PointCloud.h"; sourceTree = "<group>"; };
+		FC58F47315C40DCF00F06D52 /* TextureUtilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TextureUtilities.cpp; path = "Point Cloud/TextureUtilities.cpp"; sourceTree = "<group>"; };
+		FC58F47415C40DCF00F06D52 /* TextureUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextureUtilities.h; path = "Point Cloud/TextureUtilities.h"; sourceTree = "<group>"; };
+		FC58F48C15C4107100F06D52 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		FC58F48E15C4107900F06D52 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FC58F49015C4108400F06D52 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		FC58F49215C4108A00F06D52 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		FC58F49415C4109000F06D52 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		FC58F49615C4109400F06D52 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		FC58F49815C4109B00F06D52 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		FC58F49A15C410A000F06D52 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FC7D2F5015D659230047E54A /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = Progress/MBProgressHUD.h; sourceTree = "<group>"; };
+		FC7D2F5115D659230047E54A /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = Progress/MBProgressHUD.m; sourceTree = "<group>"; };
+		FCDCE6C515C3D8300034AF86 /* Augmented Reality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Augmented Reality.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCDCE6C915C3D8300034AF86 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FCDCE6CB15C3D8300034AF86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FCDCE6CD15C3D8300034AF86 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FCDCE6D115C3D8300034AF86 /* Augmented Reality-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Augmented Reality-Info.plist"; sourceTree = "<group>"; };
+		FCDCE6D315C3D8300034AF86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCDCE6D515C3D8300034AF86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCDCE6D715C3D8300034AF86 /* Augmented Reality-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Augmented Reality-Prefix.pch"; sourceTree = "<group>"; };
+		FCDCE6D815C3D8300034AF86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCDCE6D915C3D8300034AF86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCDCE6C215C3D8300034AF86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC58F47515C40DCF00F06D52 /* libpointcloud.a in Frameworks */,
+				FC58F48D15C4107100F06D52 /* Accelerate.framework in Frameworks */,
+				FC58F48F15C4107900F06D52 /* AVFoundation.framework in Frameworks */,
+				FC58F49115C4108400F06D52 /* CoreAudio.framework in Frameworks */,
+				FCDCE6CE15C3D8300034AF86 /* CoreGraphics.framework in Frameworks */,
+				FC58F49315C4108A00F06D52 /* CoreMedia.framework in Frameworks */,
+				FC58F49515C4109000F06D52 /* CoreMotion.framework in Frameworks */,
+				FC58F49715C4109400F06D52 /* CoreVideo.framework in Frameworks */,
+				FCDCE6CC15C3D8300034AF86 /* Foundation.framework in Frameworks */,
+				FC58F49915C4109B00F06D52 /* OpenGLES.framework in Frameworks */,
+				FC58F49B15C410A000F06D52 /* QuartzCore.framework in Frameworks */,
+				FCDCE6CA15C3D8300034AF86 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0239AAE916B193C4006A2105 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0239AAEA16B193C4006A2105 /* Sennheiser_HD202_(obj) */,
+				0239AAF016B193C4006A2105 /* Target */,
+			);
+			name = Assets;
+			path = Resources/Assets;
+			sourceTree = "<group>";
+		};
+		0239AAEA16B193C4006A2105 /* Sennheiser_HD202_(obj) */ = {
+			isa = PBXGroup;
+			children = (
+				0239AAEB16B193C4006A2105 /* hd202_heights.jpg */,
+				0239AAEC16B193C4006A2105 /* hd202_normals.jpg */,
+				0239AAED16B193C4006A2105 /* hd202_occlusion.jpg */,
+				0239AAEE16B193C4006A2105 /* Sennheiser_HD202_(obj).mtl */,
+				0239AAEF16B193C4006A2105 /* Sennheiser_HD202_(obj).obj */,
+			);
+			path = "Sennheiser_HD202_(obj)";
+			sourceTree = "<group>";
+		};
+		0239AAF016B193C4006A2105 /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				0239AAF116B193C4006A2105 /* 8ninths_businesscard_back.jpg */,
+				0239AAF216B193C4006A2105 /* 8ninths_businesscard_back.model */,
+				0239AAF316B193C4006A2105 /* image_target_1.jpg */,
+				0239AAF416B193C4006A2105 /* image_target_1.model */,
+				0239AAF516B193C4006A2105 /* image_target_2.jpg */,
+				0239AAF616B193C4006A2105 /* image_target_2.model */,
+			);
+			path = Target;
+			sourceTree = "<group>";
+		};
+		02EDA64A1609B6DB00DA80B6 /* Obj Model */ = {
+			isa = PBXGroup;
+			children = (
+				0253012D160B0CCF00C618D9 /* ObjCommon.h */,
+				02EDA64B1609B70F00DA80B6 /* ObjModel.h */,
+				02EDA64C1609B70F00DA80B6 /* ObjModel.m */,
+				02530123160B015500C618D9 /* ObjMaterial.h */,
+				02530124160B015500C618D9 /* ObjMaterial.m */,
+				02530127160B031200C618D9 /* ObjGroup.h */,
+				02530128160B031200C618D9 /* ObjGroup.m */,
+				0253012A160B037800C618D9 /* ObjTexture.h */,
+				0253012B160B037800C618D9 /* ObjTexture.mm */,
+			);
+			name = "Obj Model";
+			sourceTree = "<group>";
+		};
+		FC58F46F15C40D5F00F06D52 /* Point Cloud */ = {
+			isa = PBXGroup;
+			children = (
+				FC58F47215C40DCF00F06D52 /* PointCloud.h */,
+				FC58F47115C40DCF00F06D52 /* libpointcloud.a */,
+				FC58F47415C40DCF00F06D52 /* TextureUtilities.h */,
+				FC58F47315C40DCF00F06D52 /* TextureUtilities.cpp */,
+			);
+			name = "Point Cloud";
+			sourceTree = "<group>";
+		};
+		FC7D2F4E15D659060047E54A /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				FC7D2F5015D659230047E54A /* MBProgressHUD.h */,
+				FC7D2F5115D659230047E54A /* MBProgressHUD.m */,
+			);
+			name = Progress;
+			sourceTree = "<group>";
+		};
+		FCDCE6BA15C3D8300034AF86 = {
+			isa = PBXGroup;
+			children = (
+				FCDCE6CF15C3D8300034AF86 /* Augmented Reality */,
+				02EDA64A1609B6DB00DA80B6 /* Obj Model */,
+				FC7D2F4E15D659060047E54A /* Progress */,
+				FC58F46F15C40D5F00F06D52 /* Point Cloud */,
+				FCDCE6E915C3D9EB0034AF86 /* Resources */,
+				FCDCE6C815C3D8300034AF86 /* Frameworks */,
+				FCDCE6C615C3D8300034AF86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCDCE6C615C3D8300034AF86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCDCE6C515C3D8300034AF86 /* Augmented Reality.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCDCE6C815C3D8300034AF86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC58F48C15C4107100F06D52 /* Accelerate.framework */,
+				FC58F48E15C4107900F06D52 /* AVFoundation.framework */,
+				FC58F49015C4108400F06D52 /* CoreAudio.framework */,
+				FCDCE6CD15C3D8300034AF86 /* CoreGraphics.framework */,
+				FC58F49215C4108A00F06D52 /* CoreMedia.framework */,
+				FC58F49415C4109000F06D52 /* CoreMotion.framework */,
+				FC58F49615C4109400F06D52 /* CoreVideo.framework */,
+				FCDCE6CB15C3D8300034AF86 /* Foundation.framework */,
+				FC58F49815C4109B00F06D52 /* OpenGLES.framework */,
+				FC58F49A15C410A000F06D52 /* QuartzCore.framework */,
+				FCDCE6C915C3D8300034AF86 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCDCE6CF15C3D8300034AF86 /* Augmented Reality */ = {
+			isa = PBXGroup;
+			children = (
+				FCDCE6D815C3D8300034AF86 /* AppDelegate.h */,
+				FCDCE6D915C3D8300034AF86 /* AppDelegate.m */,
+				0296475616B0CB8400DAEA3B /* ARScanController.h */,
+				0296475716B0CB8400DAEA3B /* ARScanController.mm */,
+				0296475816B0CB8400DAEA3B /* ARScanController.xib */,
+				FC58F46B15C40D4A00F06D52 /* EAGLView.h */,
+				FC58F46C15C40D4A00F06D52 /* EAGLView.mm */,
+				FCDCE6D015C3D8300034AF86 /* Supporting Files */,
+			);
+			path = "Augmented Reality";
+			sourceTree = "<group>";
+		};
+		FCDCE6D015C3D8300034AF86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCDCE6D115C3D8300034AF86 /* Augmented Reality-Info.plist */,
+				FCDCE6D215C3D8300034AF86 /* InfoPlist.strings */,
+				FCDCE6D515C3D8300034AF86 /* main.m */,
+				FCDCE6D715C3D8300034AF86 /* Augmented Reality-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCDCE6E915C3D9EB0034AF86 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0239AAE916B193C4006A2105 /* Assets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCDCE6C415C3D8300034AF86 /* Augmented Reality */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCDCE6E315C3D8300034AF86 /* Build configuration list for PBXNativeTarget "Augmented Reality" */;
+			buildPhases = (
+				FCDCE6C115C3D8300034AF86 /* Sources */,
+				FCDCE6C215C3D8300034AF86 /* Frameworks */,
+				FCDCE6C315C3D8300034AF86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Augmented Reality";
+			productName = "Augmented Reality";
+			productReference = FCDCE6C515C3D8300034AF86 /* Augmented Reality.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCDCE6BC15C3D8300034AF86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "NewTech Co, Ltd";
+			};
+			buildConfigurationList = FCDCE6BF15C3D8300034AF86 /* Build configuration list for PBXProject "Augmented Reality" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FCDCE6BA15C3D8300034AF86;
+			productRefGroup = FCDCE6C615C3D8300034AF86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCDCE6C415C3D8300034AF86 /* Augmented Reality */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCDCE6C315C3D8300034AF86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDCE6D415C3D8300034AF86 /* InfoPlist.strings in Resources */,
+				0296475A16B0CB8400DAEA3B /* ARScanController.xib in Resources */,
+				0239AAF716B193C4006A2105 /* hd202_heights.jpg in Resources */,
+				0239AAF816B193C4006A2105 /* hd202_normals.jpg in Resources */,
+				0239AAF916B193C4006A2105 /* hd202_occlusion.jpg in Resources */,
+				0239AAFA16B193C4006A2105 /* Sennheiser_HD202_(obj).mtl in Resources */,
+				0239AAFB16B193C4006A2105 /* Sennheiser_HD202_(obj).obj in Resources */,
+				0239AAFC16B193C4006A2105 /* 8ninths_businesscard_back.jpg in Resources */,
+				0239AAFD16B193C4006A2105 /* 8ninths_businesscard_back.model in Resources */,
+				0239AAFE16B193C4006A2105 /* image_target_1.jpg in Resources */,
+				0239AAFF16B193C4006A2105 /* image_target_1.model in Resources */,
+				0239AB0016B193C4006A2105 /* image_target_2.jpg in Resources */,
+				0239AB0116B193C4006A2105 /* image_target_2.model in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCDCE6C115C3D8300034AF86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDCE6D615C3D8300034AF86 /* main.m in Sources */,
+				FCDCE6DA15C3D8300034AF86 /* AppDelegate.m in Sources */,
+				FC58F46E15C40D4B00F06D52 /* EAGLView.mm in Sources */,
+				FC58F47615C40DCF00F06D52 /* TextureUtilities.cpp in Sources */,
+				FC7D2F5215D659230047E54A /* MBProgressHUD.m in Sources */,
+				02EDA64D1609B70F00DA80B6 /* ObjModel.m in Sources */,
+				02530125160B015500C618D9 /* ObjMaterial.m in Sources */,
+				02530129160B031200C618D9 /* ObjGroup.m in Sources */,
+				0253012C160B037800C618D9 /* ObjTexture.mm in Sources */,
+				0296475916B0CB8400DAEA3B /* ARScanController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCDCE6D215C3D8300034AF86 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCDCE6D315C3D8300034AF86 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCDCE6E115C3D8300034AF86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCDCE6E215C3D8300034AF86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCDCE6E415C3D8300034AF86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhen Han (BZW5E3V4N5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Zhen Han (BZW5E3V4N5)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Augmented Reality/Augmented Reality-Prefix.pch";
+				INFOPLIST_FILE = "Augmented Reality/Augmented Reality-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Point Cloud\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8CE9B015-A0AB-4842-9F92-4673B1F27F51";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8CE9B015-A0AB-4842-9F92-4673B1F27F51";
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FCDCE6E515C3D8300034AF86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhen Han (BZW5E3V4N5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Zhen Han (BZW5E3V4N5)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Augmented Reality/Augmented Reality-Prefix.pch";
+				INFOPLIST_FILE = "Augmented Reality/Augmented Reality-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Point Cloud\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8CE9B015-A0AB-4842-9F92-4673B1F27F51";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8CE9B015-A0AB-4842-9F92-4673B1F27F51";
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCDCE6BF15C3D8300034AF86 /* Build configuration list for PBXProject "Augmented Reality" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCDCE6E115C3D8300034AF86 /* Debug */,
+				FCDCE6E215C3D8300034AF86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCDCE6E315C3D8300034AF86 /* Build configuration list for PBXNativeTarget "Augmented Reality" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCDCE6E415C3D8300034AF86 /* Debug */,
+				FCDCE6E515C3D8300034AF86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCDCE6BC15C3D8300034AF86 /* Project object */;
+}

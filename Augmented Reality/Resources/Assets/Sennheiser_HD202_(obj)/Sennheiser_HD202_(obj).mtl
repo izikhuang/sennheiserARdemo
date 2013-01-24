@@ -1,0 +1,166 @@
+﻿# 
+# Wavefront material file
+# Converted by the DEEP Exploration  Deep Exploration 5.5 5.5.4.2708 Release
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+
+newmtl Plastic01
+Ka 0.0862745 0.0862745 0.0862745
+Kd 0.0862745 0.0862745 0.0862745
+Ks 0.5 0.5 0.5
+illum 2
+Ns 6.06286
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Plastic02
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.5 0.5 0.5
+illum 2
+Ns 1024
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Plastic03
+Ka 0.12549 0.12549 0.12549
+Kd 0.12549 0.12549 0.12549
+Ks 0.5 0.5 0.5
+illum 2
+Ns 6.9644
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Base01
+Ka 0.0705882 0.0705882 0.0705882
+Kd 0.0705882 0.0705882 0.0705882
+Ks 0.870588 0.870588 0.870588
+illum 2
+Ns 5.65685
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Base02
+Ka 0.588235 0.588235 0.588235
+Kd 1 1 1
+Ks 0.5 0.5 0.5
+illum 2
+Ns 2
+map_Kd hd202_occlusion.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Metal
+Ka 0 0 0
+Kd 0.337255 0.337255 0.337255
+Ks 1 1 1
+illum 2
+Ns 21.1121
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl HD_202
+Ka 0.0705882 0.0705882 0.0705882
+Kd 0.0705882 0.0705882 0.0705882
+Ks 0.870588 0.870588 0.870588
+illum 2
+Ns 5.65685
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Bumps
+Ka 0.0705882 0.0705882 0.0705882
+Kd 0.0705882 0.0705882 0.0705882
+Ks 0.5 0.5 0.5
+illum 2
+Ns 16
+map_Kd 
+map_bump hd202_heights.png
+bump hd202_heights.png
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Logo
+Ka 1 1 1
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 2
+map_Kd hd202_heights.png
+map_bump hd202_heights.png
+bump hd202_heights.png
+map_opacity hd202_heights.png
+map_d hd202_heights.png
+refl hd202_heights.png
+map_kS hd202_heights.png
+map_kA hd202_heights.png
+map_Ns hd202_heights.png
+
+newmtl Silver
+Ka 0 0 0
+Kd 0.564706 0.584314 0.588235
+Ks 1 1 1
+illum 2
+Ns 445.722
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
